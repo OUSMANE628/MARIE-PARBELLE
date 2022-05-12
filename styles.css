@@ -1,16 +1,105 @@
-/* pour le header*/
-.header{
-    background-color:  #1E8E9D;
-    height: 30px;
+font-face {
+  font-family: "Amatica_SC";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/Amatica_SC.ttf) format("truetype");
 }
-.fa-phone{
-    height: 5rem;
-    width: 40rem;
-    background-color: red;
+
+font-face {
+  font-family: "Amstelvar_Alpha";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/Amatica_SC.ttf) format("truetype");
 }
-/* 
-.r-sociaux{
-    align-items: flex-end;
-    background-color: red;
-    padding-left: 15rem;
-  } */
+
+font-face {
+  font-family: "Brandon_Grotesque_light";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/Brandon_light.ttf) format("truetype");
+}
+
+font-face {
+  font-family: "Brandon_Grotesque_reg";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/Brandon_reg.ttf) format("truetype");
+}
+
+font-face {
+  font-family: "Mulish-Light";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/Mulish-Light.ttf) format("truetype");
+}
+
+font-face {
+  font-family: "Mulish-reg";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/Mulish-Regular.ttf) format("truetype");
+}
+
+font-face {
+  font-family: "Mulish-v10-latin-500";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/mulish-v10-latin-500.ttf) format("truetype");
+}
+
+font-face {
+  font-family: "Mulish-v10-latin-700";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/mulish-v10-latin-700.ttf) format("truetype");
+}
+
+font-face {
+  font-family: "Mulish-v10-latin-800";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/mulish-v10-latin-800.ttf) format("truetype");
+}
+
+font-face {
+  font-family: "Mulish-v10-latin-900";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/mulish-v10-latin-900.ttf) format("truetype");
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  border-bottom: 2px solid black;
+}
+
+.r-sociaux {
+  align-items: flex-end;
+  background-color: red;
+  padding-left: 15rem;
+}
+
+footer {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titre img {
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */

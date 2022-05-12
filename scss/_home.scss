@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: $white;
   color: $black;
   font-family: $font0;
+}
+
+.titre {
+  img {
+    width: 100%;
+  }
 }
