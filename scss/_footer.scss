@@ -1,5 +1,42 @@
-footer {
-  background-color: $white;
-  color: $black;
+.band {
+  background-color: $blue;
+  height: 100px;
+}
 
+.contact {
+  width: 100% height auto;
+
+  .footer-picto {
+    height: 35px;
+    padding-right: 10px;
+  }
+
+  .adress {
+    width: 25%;
+    height:150px;
+  }
+
+  .tel {
+    width: 25%;
+    height:150px;
+  }
+
+  .loc {
+    width: 25%;
+    height:150px;
+  }
+
+  .footer-pictos {
+    height: 150px;
+  }
+
+  // JE DOIS MODIFIER LE P de RUE APRES AVOIR MODIFIER LA TAILLE ET LA COULEUR ET LA POLICE
+  .rue {
+    width: 50%;
+  }
+
+}
+
+.regular {
+  height: 150px;
 }

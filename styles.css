@@ -1,68 +1,68 @@
 font-face {
-  font-family: "Amatica_SC";
+  font-family: 'Amatica_SC';
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/Amatica_SC.ttf) format("truetype");
 }
 
 font-face {
-  font-family: "Amstelvar_Alpha";
+  font-family: 'Amstelvar_Alpha';
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/Amatica_SC.ttf) format("truetype");
 }
 
 font-face {
-  font-family: "Brandon_Grotesque_light";
+  font-family: 'Brandon_Grotesque_light';
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/Brandon_light.ttf) format("truetype");
 }
 
 font-face {
-  font-family: "Brandon_Grotesque_reg";
+  font-family: 'Brandon_Grotesque_reg';
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/Brandon_reg.ttf) format("truetype");
 }
 
 font-face {
-  font-family: "Mulish-Light";
+  font-family: 'Mulish-Light';
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/Mulish-Light.ttf) format("truetype");
 }
 
 font-face {
-  font-family: "Mulish-reg";
+  font-family: 'Mulish-reg';
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/Mulish-Regular.ttf) format("truetype");
 }
 
 font-face {
-  font-family: "Mulish-v10-latin-500";
+  font-family: 'Mulish-v10-latin-500';
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/mulish-v10-latin-500.ttf) format("truetype");
 }
 
 font-face {
-  font-family: "Mulish-v10-latin-700";
+  font-family: 'Mulish-v10-latin-700';
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/mulish-v10-latin-700.ttf) format("truetype");
 }
 
 font-face {
-  font-family: "Mulish-v10-latin-800";
+  font-family: 'Mulish-v10-latin-800';
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/mulish-v10-latin-800.ttf) format("truetype");
 }
 
 font-face {
-  font-family: "Mulish-v10-latin-900";
+  font-family: 'Mulish-v10-latin-900';
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/mulish-v10-latin-900.ttf) format("truetype");
@@ -78,28 +78,70 @@ header {
 }
 
 .r-sociaux {
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   background-color: red;
   padding-left: 15rem;
 }
 
-footer {
-  background-color: #ffffff;
-  color: #000000;
+.band {
+  background-color: #1E8E9D;
+  height: 100px;
+}
+
+.contact {
+  width: 100% height auto;
+}
+
+.contact .footer-picto {
+  height: 35px;
+  padding-right: 10px;
+}
+
+.contact .adress {
+  width: 25%;
+  height: 150px;
+}
+
+.contact .tel {
+  width: 25%;
+  height: 150px;
+}
+
+.contact .loc {
+  width: 25%;
+  height: 150px;
+}
+
+.contact .footer-pictos {
+  height: 150px;
+}
+
+.contact .rue {
+  width: 50%;
+}
+
+.regular {
+  height: 150px;
 }
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   background-color: #ffffff;
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .titre img {
   width: 100%;
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */
